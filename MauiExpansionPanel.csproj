@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net6.0;net6.0-android;net6.0-ios;net6.0-maccatalyst</TargetFrameworks>
@@ -18,12 +18,28 @@
 		<PackageId>Plugin.Maui.ExpansionPanel</PackageId>
 		<Title>ExpansionPanel</Title>
 		<Authors>Pragnesh Mistry</Authors>
+		<Copyright>Pragnesh Mistry</Copyright>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageTags>Expansion Panel, MAUI Expanssion Panel</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Description>Expansino Panel is used to easily show and hide (collapse and expand) content.</Description>
+		<PackageProjectUrl>https://github.com/mistrypragnesh40/MauiExpansionPanel</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/mistrypragnesh40/MauiExpansionPanel</RepositoryUrl>
+		<Version>1.0.2</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
 	  <MauiXaml Update="Views\ExpansionPanel.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="icon.png">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
