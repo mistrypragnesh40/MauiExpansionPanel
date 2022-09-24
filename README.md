@@ -7,7 +7,7 @@ Available on NuGet: https://www.nuget.org/packages/Plugin.Maui.ExpansionPanel/1.
 
 Install this Plugin in your .NET MAUI Project
 
-Now add following namespace to your content page & replace content page tag with <mauiPopup:BasePopupPage
+Now add following namespace to your content page
 
 ```
    xmlns:panel="clr-namespace:MauiExpansionPanel.Views;assembly=MauiExpansionPanel"
